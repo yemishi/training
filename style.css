@@ -1,0 +1,24 @@
+body{
+    display: flex;
+    align-items: center;
+    max-width:1366px;
+    background-color: #083a68;
+    border:solid 2px black;
+}
+.test{
+
+margin:auto;
+   width:900px;
+  background-color: #62317c;
+
+
+}
+
+img{
+    width:600px;
+    height: auto;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+   
