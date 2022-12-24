@@ -1,9 +1,9 @@
 body{
-    display: flex;
+    display:flex;
     align-items:flex-start;
-    max-width:1440px;
-    background-color: #738392a2;
-    
+    max-width:auto;
+    background-image: url("https://images.unsplash.com/photo-1478760329108-5c3ed9d495a0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1548&q=80");
+    background-size: cover;
     height: auto;
     margin-left: auto;
     margin-right: auto;
@@ -14,8 +14,8 @@ body{
    
    margin-left: auto;
    margin-right: auto;
-   width:95%;
-  background-color:rgb(67, 59, 102);
+   width:85%;
+ 
   
 
 }
@@ -29,10 +29,11 @@ body{
       
       background-size: cover;
   
-      display: block;
-      justify-content: center;
-      align-items: center;
+      
+      
+  
       filter:brightness(1.2);
+      
 
       
         
@@ -56,30 +57,22 @@ body{
 img{
     width: 76px;
     height: 65px;
-    margin-left: 2px;
+    margin-left: 192px;
     
    
 }
 .perfil{
-    width:235px;
+    width:265px;
     height: 65px;
     background:linear-gradient(178.79deg, rgba(42, 54, 27, 0.81) 3.74%, rgba(27, 30, 54, 0.365) 78.93%, rgba(35, 59, 165, 0.226) 98.96%);
 
  position: relative;
- left: 104px;
+ left: 124px;
  top:49px;
 background-image: url("https://media.tenor.com/FIlAXMHf8vsAAAAd/naruto-background.gif");   
-filter: drop-shadow(10px 10px 10px rgb(74, 102, 80));
+filter: drop-shadow(7px 5px 8px rgb(141, 84, 146));
 background-size: cover;
 
-
-
-
-
-}
-.svg{
-    color:blue;
-   filter:
 }
 
 
@@ -118,5 +111,82 @@ background-size: cover;
  height: 51px ;
  background:
   
+
 }
+
+@keyframes bounce{
+    0%, 20%, 60%, 100%{
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+    }
+40%{
+   -webkit-transform: translateY(-20px);
+   transform: translateY(-20px); 
+ 
+80%{
+    -webkit-transform: translateY(-10px);
+    transform: translateY(-10px);
   
+}
+}
+.efeito{
+     border: none;
+    
+     
+    font-size: 24px;
+    line-height: 24px;
+  
+    box-sizing: border-box;
+    cursor: pointer;
+    transition: all 400ms ease;
+    top: 0;
+
+    width: 500px;
+ 
+}
+.efeito-1{
+    
+    transform-style:preserve-3d;
+    padding: 0;
+
+
+}
+.efeito-1::after{
+    top:-100%;
+    left:0px;
+    width: 100%;
+    padding: 20px;
+    position: absolute;
+  background-image: url("https://media.tenor.com/2y8C3P-EVYsAAAAC/genji-overwatch.gif");
+    border-radius: 18px;
+    box-sizing: border-box;
+    content: "";
+    transform-origin: left bottom;
+    transform: rotateX(90deg);
+    width: 800px;
+    width: 100%;
+    height: 100%;
+    
+   
+    background-size: cover;
+    
+}
+.efeito-1:hover{
+    transform-origin: center bottom;
+    transform: rotateX(-90deg) translateY(100%);
+  
+}
+.btns{
+  
+    margin-top: -280px;
+    margin-left: 850px;
+}
+.ult{
+    width: 100%;
+    height: 100%;
+    margin-left: -1px;
+    margin-right: -1px;
+margin-bottom: -10px;
+    
+}
