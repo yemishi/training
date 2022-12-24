@@ -50,8 +50,9 @@ body{
     
     
     background:linear-gradient(178.79deg, rgba(58, 199, 178, 0.082) 3.74%, rgba(54, 27, 53, 0.288) 78.93%, rgba(102, 162, 190) 98.96%);
-    position: relative;
+    position:relative;
     left:110px;
+    display: inline-block;
      
 }
 img{
@@ -178,9 +179,10 @@ background-size: cover;
   
 }
 .btns{
-  position: relative;
+
     margin-top: -280px;
     margin-left: 850px;
+
 }
 .ult{
     width: 100%;
