@@ -6,8 +6,8 @@ body[data-version=hd] {
 
 body{
     display:grid;
-    max-height:none;
-    max-width: auto;
+    height: 100%;
+    width: 100%;
     
     background-size: cover;
     
