@@ -37,8 +37,7 @@ body{
       
 
       
-        
-    
+   
   
   
     }
@@ -179,7 +178,7 @@ background-size: cover;
   
 }
 .btns{
-  
+  position: relative;
     margin-top: -280px;
     margin-left: 850px;
 }
